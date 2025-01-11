@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Coffee - Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="text">
+        <span class="letter">C</span>
+        <span class="letter">A</span>
+        <span class="letter">F</span>
+        <span class="letter">F</span>
+        <span class="letter">E</span>
+        <span class="letter">I</span>
+        <span class="letter">N</span>
+        <span class="letter">E</span>
+        <span class="letter"> </span>
+        <span class="letter">E</span>
+        <span class="letter">M</span>
+        <span class="letter">P</span>
+        <span class="letter">I</span>
+        <span class="letter">R</span>
+        <span class="letter">E</span>
+    </div>
+
+    <!-- <a class="navbar-brand" href="products.html">Caffeine Empire</a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="process.html">Our Process</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Welcome Banner -->
+<section class="welcome-banner" style="background-color: chocolate;">
+    
+    <div class="container text-center">
+        
+        <h1 class="display-4">Welcome to Premium Coffee</h1>
+        <p class="lead" style="color: white;">Experience the finest coffee from around the world</p>
+        <a href="#featured-products" class="btn btn-primary btn-lg">Explore Our Coffee</a>
+    </div>
+</section>
+
+<!-- Featured Products Section -->
+<section id="featured-products" class="featured-products-section">
+    <div class="container">
+        <h2 class="section-title text-center">Featured Products</h2>
+        <div class="row mt-5">
+            <!-- Product 1 -->
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="images/espresso.jpg" class="card-img-top" alt="Espresso">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Classic Espresso</h5>
+                        <p class="card-text">A rich, full-bodied espresso with hints of dark chocolate.</p>
+                        <a href="products.html" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="images/single-origin.jpg" class="card-img-top" alt="Single Origin">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ethiopian Single Origin</h5>
+                        <p class="card-text">A light roast with floral notes and a bright acidity.</p>
+                        <a href="products.html" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-4">
+                <div class="card product-card">
+                    <img src="images/blend.jpg" class="card-img-top" alt="Blend">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">House Blend</h5>
+                        <p class="card-text">A smooth, balanced blend with caramel and nutty notes.</p>
+                        <a href="products.html" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials-section" style="background-color: grey;">
+    <div class="container">
+        <h2 class="section-title text-center">What Our Customers Say</h2>
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"Absolutely love the Ethiopian Single Origin! It's my go-to coffee every morning."</p>
+                    <p class="customer-name">- Hameez Siddiqui.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"The classic espresso is a perfect balance of richness and smoothness."</p>
+                    <p class="customer-name">- Ayesha Ali.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"Their blends are outstanding – you can taste the quality in every sip."</p>
+                    <p class="customer-name">- Abdullah Rasheed.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter Section -->
+<section class="newsletter-section text-center">
+    <div class="container">
+        <h2 class="section-title">Stay Updated!</h2>
+        <p>Subscribe to our newsletter for the latest coffee updates and exclusive offers.</p>
+        <form id="newsletter-form" class="form-inline justify-content-center mt-4">
+            <input type="email" class="form-control mr-2" placeholder="Enter your email" required>
+            <button type="submit" class="btn btn-primary"><b>Subscribe</b></button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+    <p style="color: white;">&copy; 2024 Caffeine Empire. All Rights Reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
